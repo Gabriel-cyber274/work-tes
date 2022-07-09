@@ -100,7 +100,7 @@ function Navbar() {
   return (
     <>
         <nav className={navS.nav}>
-            <Image src={logo} width='40' height='40' />
+            <Image src={logo} alt='nav' width='40' height='40' />
             <div className={navS.nav_part}>
                 {navC2 &&
                     <ul className={navS.ul}>
